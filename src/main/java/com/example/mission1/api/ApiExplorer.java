@@ -16,7 +16,7 @@ public class ApiExplorer {
         Gson gson = new Gson();
         WifiDao wifiDao = new WifiDao();
 
-        String url = "http://openapi.seoul.go.kr:8088/764a515a67676e733431576d5a5049/json/TbPublicWifiInfo/";
+        String url = "http://openapi.seoul.go.kr:8088/KEY/json/TbPublicWifiInfo/";
         int startIdx;
         int endIdx;
 
